@@ -40,7 +40,7 @@ const EMICalculator = () => {
         )} Lakh`}</div>
       </div>
         
-        {/* <img src={image1}/> */}
+        <img src={image1}/>
       
       <div className="time">
         <label className="duration">
@@ -67,9 +67,10 @@ const EMICalculator = () => {
         <p className="rateofintrset">
           Rate of interest @ {rateOfInterest}% for {duration} years
         </p>
-        <p className="monthly emi">
+        <p className="monthlyemi">
           <b>Your Monthly EMI:</b>
-          <div> <h1>₹{calculateEMI()}</h1></div>
+          <div className="emi"> <h1>₹{calculateEMI()} </h1> <a href="" class="blue-url">view breakup</a></div>
+          
         </p>
       </div>
 
