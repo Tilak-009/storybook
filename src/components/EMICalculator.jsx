@@ -69,7 +69,7 @@ const EMICalculator = () => {
         </p>
         <p className="monthlyemi">
           <b>Your Monthly EMI:</b>
-          <div className="emi"> <h1>₹{calculateEMI()} </h1> <a href="" class="blue-url">view breakup</a></div>
+           <h1>₹{calculateEMI()} </h1> <a href="" class="blue-url">view breakup</a>
           
         </p>
       </div>

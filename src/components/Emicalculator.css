@@ -69,9 +69,35 @@ background-color: rgb(249, 0, 0);
 background-color: red;
 }
 .monthlyemi{
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 50%;}
-.emi.a{
-  padding-right: 10px;
+  border: 2px solid black;
+  width: 600px;
+  height: 100px;
 }
+.monthlyemi {
+  position: relative;
+  padding-bottom: 10px;
+  }
+  
+  .monthlyemi b {
+  display: block;
+  margin-bottom: 10px;
+
+  padding-top: 20px;
+  }
+  
+  .monthlyemi h1 {
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 3px;
+  }
+  
+  .blue-url {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: blue;
+  padding-top: 30px;
+  padding-right: 50px;
+  
+  }
