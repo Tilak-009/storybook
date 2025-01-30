@@ -1,29 +1,31 @@
 import React from "react";
-import "./sidebar.css"
+import { FaHome, FaUtensils, FaComments, FaEnvelope, FaHistory, FaCreditCard, FaSlidersH } from "react-icons/fa";
+import "./sidebar.css";
+import logo from "./images/bglogo1.png"
+
 const SidebarMenu = ({ items, selected }) => {
   return (
     <div className="mbody">
-        <div class="heading">
-  <div class="foodie"><h3>foodie</h3></div>
-  <div class="slice"><h3>slice</h3></div>
-</div>
+      <div className="heading">
+        <div className="heading">
+          
+       <div className="logo" ><img src={logo}/></div>
+          <h3 className="foodie">foodi</h3>
+          <h3 className="slice">slice</h3>
+        </div>
 
+      </div>
 
-      <h2 className="menu">Menu</h2>
       <ul>
-  {items.map((item) => (
-    <li
-      key={item.label}
-      className={`flex items-center gap-2 p-2 rounded border border-gray-200 ${
-        selected === item.label ? "bg-orange-500 text-white" : "hover:bg-gray-200"
-      }`}
-    >
-      <img src={ dashboard} alt={item.label} className="w-8 h-8 rounded-full" />
-      {item.label}
-    </li>
-  ))}
-</ul>
-
+        {items.map((item) => (
+          <li
+            key={item.label}
+          >
+            <span className="text-xl">{item.icon}</span> 
+            {item.label}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
