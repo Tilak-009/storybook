@@ -15,6 +15,7 @@ const menuItems = [
   { label: "Order History", icon: <FaHistory /> },
   { label: "Payment details", icon: <FaCreditCard /> },
   { label: "Customization", icon: <FaSlidersH /> },
+  
 ];
 
 export const Default = () => <SidebarMenu items={menuItems} selected="Dashboard" />;

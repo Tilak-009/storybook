@@ -1,35 +1,37 @@
 *{
-  font-family: Arial, Helvetica, sans-serif;}
+  font-family: Arial, Helvetica, sans-serif;
+ }
 
 .foodie,.slice {
     display: inline-block;
     vertical-align: middle;
     gap: 0;
     margin-right: 0;
+    text-align: center;
     
   }
-
-.logo img{
-padding-right: 1100px;
+/* 
+ img{
+align-items: left;
 width: 40px;
 height:25px;
-margin-top: 75px;
+margin-top: 78px;
 margin-bottom: -20px;
 /* padding: 5px; */
-margin-left: 100px;
+/* position: fixed;
+will-change: transform;
 
 
 
-
-}
+} */ */
 .heading{
-  margin-right:80px;
+  margin-right:100px;
   padding-bottom: 0;
   margin-top: 0;
   padding-top: 15px;
   font-size:large;
   text-align: left;
- 
+  padding-left: 25px; 
 
   
 }
@@ -52,7 +54,7 @@ margin-left: 100px;
 li{
   border: 2px solid rgb(172, 169, 169);
   border-radius: 20px;
-  width: 300px;
+  width: 310px;
   height: 50px;
   margin-bottom: 10px;
   text-align: center;
@@ -70,8 +72,41 @@ ul {
   margin-top: 0;
   padding-top: 0;
   align-items: right;
+  padding-bottom: 800px;
 
 
 }
+img{
+  position: absolute;
+  bottom: -400px;
+  right: 2000px;
+}
 
 
+.btmimg img{
+  /* border: 2px solid #000000; */
+  border-radius: 30px;
+  width:330px;
+  height: 200px
+  ;}
+  
+  .btmdesc img{
+    right: 1140px;
+   margin-top: 950px;
+    
+  }
+
+  
+  .btmimg h2 {
+    position: absolute;
+    bottom:-520px;
+  left: 20px;
+  }
+  
+
+  .btmimg p {
+    position: absolute;
+    bottom:-580px;
+  left: 20px;
+  }
+  
