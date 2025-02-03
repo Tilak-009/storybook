@@ -1,0 +1,20 @@
+input{
+    width: 330px;
+}
+
+.info{
+    border: 3px solid black;
+    border-radius: 40px;
+    width:20px;
+    height: 13px;
+
+}
+
+
+.customer h2{
+    display: flex;
+    justify-content: space-between;}
+
+button{
+    vertical-align: middle;
+}

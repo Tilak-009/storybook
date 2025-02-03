@@ -21,7 +21,7 @@ const SidebarMenu = ({ items, selected }) => {
           <div className="btmimg"><img src={bottom} />
           <h2>how to order food?</h2>
 <b>
-            <p>ordering food from our web app is<br/>
+            <p>ordering food froms our web app is<br/>
              seamless and delightfull experirnce designed<br/>
               to satisfy you effortlessly</p>
               </b>
