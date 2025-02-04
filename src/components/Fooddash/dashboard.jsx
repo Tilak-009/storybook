@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaInfo, FaSearch } from "react-icons/fa";
 import "./dashboard.css";
 
+
 function Fdashboard(){
 
     const [search,setsearch]=useState("")
@@ -31,26 +32,31 @@ setsearch(e.target.value.toLowerCase())
     
       return (
 
-        <div className="s-bar"> 
+        <div className="f-dash"> 
+        <div className="s-bar">
+          <div className="input">
         <input 
         type="text"
         onChange={handleSearch}
         value={search}
       
 
-        />
+        /></div>
 
+          
            
-        
-          <FaSearch className="s-icon"/>
+        <div className="icons">
+          <FaSearch className="s-icon"/></div>
+          </div>
            <div className="onlineshop">
           {/* Customer Info */}
           <div 
                 style={{
-                  width: '600px',
-                  height: '900px',
+                  width: '700px',
+                  height: '1300px',
                   backgroundColor: 'white',
-                  border: '1px solid #ccc',
+                  border: '5px solid #ccc',
+                  borderRadius:30
       
           
           }}>
@@ -60,7 +66,7 @@ setsearch(e.target.value.toLowerCase())
             <div
              style={{
               
-                width: '550px',
+                width: '650px',
                 height: '70px',
                 backgroundColor: '#ccc',
                 border: '2px solid white',
@@ -75,23 +81,27 @@ setsearch(e.target.value.toLowerCase())
            <div
            
            style={{
-              width: '550px',
-              height: '100px',
+              width: '650px',
+              height: '80px',
               backgroundColor: '#ccc',
               border: '2px solid white',
               borderRadius:15,
   
       
       
-      }}>
+      }}><div className="np">
                <i> Number of persons: </i>
-              <div className="btn">
-                <h3>{tableSize} Number of persons</h3>
-             
-             <button  onClick={decreamenttable}>-</button>
+</div>
+              <div className="nop">
+               <div className="btn">
+                <b>{tableSize} Number of persons</b>
+             </div>
+             <div className="btn1">
+             <button  onClick={decreamenttable}> - </button>
                {tableSize}
-             <button onClick={increamenttabele}>+</button>
+             <button onClick={increamenttabele}> + </button>
                </div>
+             </div>
              </div>
            
           </div>
@@ -101,9 +111,15 @@ setsearch(e.target.value.toLowerCase())
           <div className="orders">
             <h2 className="co">Current Order</h2>
             <ul>
+              <div className="list">
               <div 
               style={{
-                backgroundColor:"#ccc"
+                backgroundColor:"#ccc",
+                width:"600px",
+                height:"500px",     
+                border:"1px solid black",
+                borderRadius:30,
+                padding:"30px"
               }}>
               {orders.map((order, index) => (
                 <li key={index} className="item1">
@@ -114,9 +130,9 @@ setsearch(e.target.value.toLowerCase())
                   <span className="font">Rp {order.price.toLocaleString()}</span>
                 </li>
               ))}
-              </div>
+              </div></div>
             </ul>
-          
+            
     
           </div>
           {/* Payment Summary */}

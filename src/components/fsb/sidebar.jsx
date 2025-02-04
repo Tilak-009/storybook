@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome, FaUtensils, FaComments, FaEnvelope, FaHistory, FaCreditCard, FaSlidersH } from "react-icons/fa";
+
 import "./sidebar.css";
 // import logo from "./images/bglogo1.png"
 import bottom from "./images/web.webp"

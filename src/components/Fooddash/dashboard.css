@@ -1,20 +1,107 @@
-input{
-    width: 330px;
-}
 
 .info{
     border: 3px solid black;
     border-radius: 40px;
     width:20px;
     height: 13px;
+    padding-top: 5px;
 
 }
 
 
 .customer h2{
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+  }
 
-button{
-    vertical-align: middle;
+    .nop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      .btn {
+        margin-right: 210px;
+        padding-right: 15px;
+        padding-top: 20px;
+      }
+      
+      .btn1 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      
+      .btn1 button {
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 100px;
+        background-color: #ffffff;
+        color: #000000;
+        justify-content: space-between;
+      }
+          
+      
+.btn1 button:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+  
+  .s-bar {
+    position: relative;
+  }
+  
+  .input input {
+    padding-right: 30px; 
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    position:top-fixed;
+    
+  }
+  
+  .icons {
+    position: absolute;
+    bottom: 15%;
+    padding-left: 670px;
+    position: top-fixed;
+  }
+  
+  .s-icon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item1 {
+    padding: 20px;
+
+
+  }
+  
+  .item1:hover {
+    background-color: #f0f0f0;
+  }
+
+
+.item2 {
+  display: flex;
+  justify-content: space-between;
 }
+
+.text {
+  font-size: 16px;
+  color: #666;
+}
+
+
