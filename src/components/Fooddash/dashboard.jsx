@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaInfo, FaSearch } from "react-icons/fa";
 import "./dashboard.css";
+// import chicken from "./images/chicken.jpeg"
 
 
 function Fdashboard(){
@@ -19,12 +20,26 @@ setsearch(e.target.value.toLowerCase())
     const decreamenttable=()=>{
         settableSize(tableSize-1)
     }
-      const orders = [
-        { name: "Japanese Chicken Gyoza", price: 81700,  },
-        { name: "2pcs of Amazing Avocado", price: 68000,  },
-        { name: "Healthy Kids Meal", price: 85000,  },
-        { name: "Krosang That’s it", price: 0,},
-      ];
+    const orders = [
+      {
+        name: "Japanese Chicken Gyoza",
+        price: 81700,
+      },
+      {
+        name: "2pcs of Amazing Avocado",
+        price: 68000,
+      },
+      {
+        name: "Healthy Kids Meal",
+        price: 85000,
+        
+      },
+      {
+        name: "Krosang That’s it",
+        price: 0,
+      
+      },
+    ];
     
       const subtotal = 1280000;
       const discount = 0;
@@ -53,7 +68,7 @@ setsearch(e.target.value.toLowerCase())
           <div 
                 style={{
                   width: '700px',
-                  height: '1300px',
+                  height: '1600px',
                   backgroundColor: 'white',
                   border: '5px solid #ccc',
                   borderRadius:30
@@ -115,11 +130,11 @@ setsearch(e.target.value.toLowerCase())
               <div 
               style={{
                 backgroundColor:"#ccc",
-                width:"600px",
-                height:"500px",     
+                width:"650px",
+                height:"900px",     
                 border:"1px solid black",
                 borderRadius:30,
-                padding:"30px"
+                // padding:"0px"
               }}>
               {orders.map((order, index) => (
                 <li key={index} className="item1">

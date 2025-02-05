@@ -21,8 +21,8 @@
       }
       
       .btn {
-        margin-right: 210px;
-        padding-right: 15px;
+        margin-right: 300px;
+        padding-right: 50px;
         padding-top: 20px;
       }
       
@@ -84,8 +84,11 @@
   }
   
   .item1 {
-    padding: 20px;
-
+    padding: 60px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    
 
   }
   
@@ -96,7 +99,6 @@
 
 .item2 {
   display: flex;
-  justify-content: space-between;
 }
 
 .text {
@@ -104,4 +106,17 @@
   color: #666;
 }
 
+span.item2{
+ right: 200px;
+}
 
+span.font{
+  padding-right: 200px;
+}
+
+.o.btn  button{
+
+
+  width: 300px;
+  border-radius: 30px;
+}
