@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { FaInfo, FaSearch } from "react-icons/fa";
 import "./dashboard.css";
-// import chicken from "./images/chicken.jpeg"
+import chicken from"./images/chicken.jpeg"
+import avacoda from "./images/avacoda.jpeg"
 
 
 function Fdashboard(){
@@ -24,10 +25,12 @@ setsearch(e.target.value.toLowerCase())
       {
         name: "Japanese Chicken Gyoza",
         price: 81700,
+        image:"./images/chicken.jpeg"
       },
       {
         name: "2pcs of Amazing Avocado",
         price: 68000,
+        image:"./images/avacoda.jpeg"
       },
       {
         name: "Healthy Kids Meal",
@@ -137,13 +140,15 @@ setsearch(e.target.value.toLowerCase())
                 // padding:"0px"
               }}>
               {orders.map((order, index) => (
-                <li key={index} className="item1">
-                  <span className="item2">
-                    <span className="text">{order.image}</span>
-                    <span>{order.name}</span>
-                  </span>
-                  <span className="font">Rp {order.price.toLocaleString()}</span>
-                </li>
+            <li key={index} className="item1">
+            <span className="item2">
+              {order.image && <img src={chicken} alt={chicken} className="chicken-image" />}
+              <span className="order-text">{order.name}</span>
+            </span>
+            <span className="font">Rp {order.price.toLocaleString()}</span>
+          </li>
+          
+           
               ))}
               </div></div>
             </ul>
