@@ -108,7 +108,7 @@ setsearch(e.target.value.toLowerCase())
           <div 
                 style={{
                   width: '700px',
-                  height: '1600px',
+                  height: '1650px',
                   backgroundColor: 'white',
                   border: '5px solid #ccc',
                   borderRadius:30
@@ -175,7 +175,7 @@ setsearch(e.target.value.toLowerCase())
                 height:"800px",     
                 border:"5px solid #ccc",
                 borderRadius:30,
-                // padding:"0px"
+        
               }}>
 
               {orders.map((order, index) => (

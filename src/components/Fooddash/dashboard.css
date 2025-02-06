@@ -86,6 +86,8 @@
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
+    width: 630px;
+    height: 180px;
 
 
 
@@ -97,7 +99,6 @@
     text-align: center;
     top: 100px;
 }
-
 .order-text {
     display: flex;
    color: green;
@@ -138,17 +139,13 @@
 }
 
 
-.order-text{
-  text-align: center;
-}
-
   img ,.chicken-image{
 width: 260px;
 height: 169px;
 margin-right: 895px;
 margin-top: 439px;
 border-radius: 20px;
-position: absolute,right,fixed;
+/* position: fixed; */
 top: 1%;
   }
 
@@ -156,47 +153,45 @@ top: 1%;
   img ,.avacoda-image{
 
     width: 260px;
-height: 169px;
+height: 175px;
 margin-right: 895px;
-margin-top: 616px;
+margin-top: 635px;
 border-radius: 20px;
 
-position: absolute,right,fixed;
+/* position: fixed; */
   }
 
   img ,.kid-image{
 
     width: 260px;
-height: 169px;
+height: 175px;
 margin-right: 895px;
-margin-top: 792px;
+margin-top: 835px;
 border-radius: 20px;
-
-position: absolute,right,fixed;
+/* 
+position: fixed; */
   }
   
-
+img{
+  position: fixed;
+}
   img ,.that-image{
 
     width: 260px;
-height: 167px;
+height: 175px;
 margin-right: 895px;
-margin-top: 967px;
+margin-top: 1030px;
 border-radius: 20px;
-position: absolute,right,fixed;
+/* position: fixed; */
   }
   
 
  .trash{
   float: bottom;
  }
-
- .k-btn {
-  display:flex;
- justify-content:  center;
- padding-left: 200px;
- padding-bottom: -1000px;
- }
+ul{
+  padding-bottom:0%;
+}
 
  .order-btn button{
   width: 600px;
