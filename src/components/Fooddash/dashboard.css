@@ -197,3 +197,59 @@ position: absolute,right,fixed;
  padding-left: 200px;
  padding-bottom: -1000px;
  }
+
+ .order-btn button{
+  width: 600px;
+  height: 50px;
+ }
+
+ .order-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+ }
+ .payment{
+  padding: 0%;
+ }
+p.total{
+  padding: 0%;
+}
+ .payment .s-total{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  
+ }
+
+ .payment .d-sale{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+ }
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 10px;
+ }
+
+ .order-btn{
+  display: flex;
+  justify-content: center;
+  padding-top:10px ;
+ }
+ .order-btn button{
+  background-color:black ;
+  color: white;
+ }
+ 
+
+ .order-btn button:hover{
+  background-color:rgb(255, 255, 255) ;
+  color: rgb(0, 0, 0);
+ }
+ 
+ .total h2{
+  color: green;
+ }

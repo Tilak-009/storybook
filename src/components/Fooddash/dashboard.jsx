@@ -108,7 +108,7 @@ setsearch(e.target.value.toLowerCase())
           <div 
                 style={{
                   width: '700px',
-                  height: '1550px',
+                  height: '1600px',
                   backgroundColor: 'white',
                   border: '5px solid #ccc',
                   borderRadius:30
@@ -207,6 +207,7 @@ setsearch(e.target.value.toLowerCase())
             <div className="order-text">{order.name} </div>
              <div className="rp"> {order.price.toLocaleString()}rp</div>
             <div className="trash"><FaTrash/></div>
+            
              </div>
           </li>
           
@@ -220,17 +221,28 @@ setsearch(e.target.value.toLowerCase())
           {/* Payment Summary */}
           <div className="payment">
             <h2 className="ps">Payment Summary</h2>
-            <p className="s-total"><span>Subtotal:</span> <span>Rp {subtotal.toLocaleString()}</span></p>
-            <p className="d-sale"><span>Discount sales:</span> <span>Rp {discount.toLocaleString()}</span></p>
+            <p className="s-total"><span><strong>Subtotal:</strong></span> <span>Rp {subtotal.toLocaleString()}</span></p>
+            <p className="d-sale"><span><strong>Discount sales:</strong></span> <span>Rp {discount.toLocaleString()}</span></p>
             <p className="total">
-              <span>Total:</span> <span>Rp {total.toLocaleString()}</span>
+            <div style={{
+                border:"1px solid black",
+                width:"950px",
+                height:"1px",
+                backgroundColor:"black",
+                padding:"0"
+                
+              }}></div>
+    
             </p>
           </div>
     
           {/* Order Button */}
-          <button className="o-btn">
-            Order Now
-          </button>
+          
+            <div className="submit">
+          <div className="total">
+          <span><h3>Total:</h3></span> <span><h2>Rp {total.toLocaleString()}</h2></span></div>
+          <div className="order-btn"><button onClick={SubmitEvent}>order</button></div>
+          </div>
         </div>
         </div>  
         </div> 
