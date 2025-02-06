@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { FaInfo, FaSearch } from "react-icons/fa";
+import { FaInfo, FaSearch, FaTrash } from "react-icons/fa";
 import "./dashboard.css";
 import chicken from"./images/chicken.jpeg"
 import avacoda from "./images/avacoda.jpeg"
-
+import kid from "./images/kid.jpg"
+import that from "./images/that.jpg"
 
 function Fdashboard(){
 
@@ -20,12 +21,45 @@ setsearch(e.target.value.toLowerCase())
       }
     const decreamenttable=()=>{
         settableSize(tableSize-1)
+
+
     }
+
+// chicken
+    const [chickenSize,setchickensize] =useState(0);
+
+    const increamentchicken=()=>{
+      setchickensize(chickenSize+1);
+    }
+  const decreamentchicken=()=>{
+    setchickensize(chickenSize-1)}
+// avacoda
+    const [avacodaSize,setavacodasize] =useState(0);
+
+    const increamentavacoda=()=>{
+      setavacodasize(avacodaSize+1);
+    }
+  const decreamentavacoda=()=>{
+    setavacodasize(avacodaSize-1)}
+
+
+    // kid
+
+    const [kidSize,setkidsize] =useState(0);
+
+    const increamentkid=()=>{
+      setkidsize(kidSize+1);
+    }
+  const decreamentkid=()=>{
+    setkidsize(kidSize-1)}
+    
+
     const orders = [
+    
       {
         name: "Japanese Chicken Gyoza",
         price: 81700,
-        image:"./images/chicken.jpeg"
+        
       },
       {
         name: "2pcs of Amazing Avocado",
@@ -49,10 +83,13 @@ setsearch(e.target.value.toLowerCase())
       const total = subtotal - discount;
     
       return (
+        
 
         <div className="f-dash"> 
+
         <div className="s-bar">
           <div className="input">
+
         <input 
         type="text"
         onChange={handleSearch}
@@ -71,13 +108,13 @@ setsearch(e.target.value.toLowerCase())
           <div 
                 style={{
                   width: '700px',
-                  height: '1600px',
+                  height: '1550px',
                   backgroundColor: 'white',
                   border: '5px solid #ccc',
                   borderRadius:30
       
           
-          }}>
+          }}> 
           <div className="customer">
       
             <h2 className="ci">Customer Information <FaInfo className="info"/></h2>
@@ -85,7 +122,7 @@ setsearch(e.target.value.toLowerCase())
              style={{
               
                 width: '650px',
-                height: '70px',
+                height: '60px',
                 backgroundColor: '#ccc',
                 border: '2px solid white',
                 borderRadius:15,
@@ -127,6 +164,7 @@ setsearch(e.target.value.toLowerCase())
     
           {/* Current Order */}
           <div className="orders">
+
             <h2 className="co">Current Order</h2>
             <ul>
               <div className="list">
@@ -134,18 +172,42 @@ setsearch(e.target.value.toLowerCase())
               style={{
                 backgroundColor:"#ccc",
                 width:"650px",
-                height:"900px",     
-                border:"1px solid black",
+                height:"800px",     
+                border:"5px solid #ccc",
                 borderRadius:30,
                 // padding:"0px"
               }}>
+
               {orders.map((order, index) => (
             <li key={index} className="item1">
+
+
+              
             <span className="item2">
+
+
+             
               {order.image && <img src={chicken} alt={chicken} className="chicken-image" />}
-              <span className="order-text">{order.name}</span>
+               
+                
+              {order.image && <img src={avacoda} alt={avacoda} className="avacoda-image" />}
+
+              
+              {order.image && <img src={kid} alt={kid} className="kid-image" />}
+
+              {order.image && <img src={that} alt={that} className="that-image" />}
+
             </span>
-            <span className="font">Rp {order.price.toLocaleString()}</span>
+            <div className="texts">
+              {/* <div className="o-btn">
+      <button onClick={decreamentorder}>-</button> 
+               {orderSize} 
+               <button onClick={increamentorder}>+</button>  */}
+              
+            <div className="order-text">{order.name} </div>
+             <div className="rp"> {order.price.toLocaleString()}rp</div>
+            <div className="trash"><FaTrash/></div>
+             </div>
           </li>
           
            
@@ -175,5 +237,4 @@ setsearch(e.target.value.toLowerCase())
       );
     };
     
-
 export default Fdashboard;

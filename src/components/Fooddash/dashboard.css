@@ -52,11 +52,12 @@
   
   .s-bar {
     position: relative;
+    padding-bottom: 30px;
   }
   
   .input input {
     padding-right: 30px; 
-    width: 700px;
+    width: 690px;
     border: 1px solid #ccc;
     border-radius: 30px;
     padding: 10px;
@@ -66,8 +67,8 @@
   
   .icons {
     position: absolute;
-    bottom: 15%;
-    padding-left: 670px;
+    bottom: 42%;
+    padding-left: 675px;
     position: top-fixed;
   }
   
@@ -79,12 +80,9 @@
 
   .list {
     list-style: none;
-    padding: 0;
-    margin: 0;
   }
   
   .item1 {
-    padding: 60px;
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
@@ -101,25 +99,28 @@
 }
 
 .order-text {
-    display: block;
-    width: 100%;
-    text-align: center;
-    bottom: 100px;
+    display: flex;
+   color: green;
+   font-size: x-large;
+   justify-content: center;
+
 }
 
-.font {
-    display: block;
-    width: 100%;
-    text-align: center;
+.rp{
+  display: flex;
+  justify-content: center
 }
 
+.texts{
+  padding-bottom: 25px;
+  padding-left: 250px;
 
+}
 
-
-
-
-
-
+.trash{
+  margin-left: 350px;
+  margin-top:42px
+}
 
   
   .item1:hover {
@@ -141,16 +142,58 @@
   text-align: center;
 }
 
-span.font{
-  padding-right: 200px;}
-
   img ,.chicken-image{
-width: 220px;
-height: 172px;
-margin-right: 940px;
-margin-top: 420px;
+width: 260px;
+height: 169px;
+margin-right: 895px;
+margin-top: 439px;
 border-radius: 20px;
-border: 1px solid black;
-position: right-fixed;
+position: absolute,right,fixed;
+top: 1%;
+  }
+
+  
+  img ,.avacoda-image{
+
+    width: 260px;
+height: 169px;
+margin-right: 895px;
+margin-top: 616px;
+border-radius: 20px;
+
+position: absolute,right,fixed;
+  }
+
+  img ,.kid-image{
+
+    width: 260px;
+height: 169px;
+margin-right: 895px;
+margin-top: 792px;
+border-radius: 20px;
+
+position: absolute,right,fixed;
   }
   
+
+  img ,.that-image{
+
+    width: 260px;
+height: 167px;
+margin-right: 895px;
+margin-top: 967px;
+border-radius: 20px;
+position: absolute,right,fixed;
+  }
+  
+
+ .trash{
+  float: bottom;
+ }
+
+ .k-btn {
+  display:flex;
+ justify-content:  center;
+ padding-left: 200px;
+ padding-bottom: -1000px;
+ }
