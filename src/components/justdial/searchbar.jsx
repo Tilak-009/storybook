@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaBell, FaBellSlash, FaChartLine, FaComment, FaEnvelope, FaGoogle, FaLanguage, FaLocationArrow, FaMailBulk, FaMap, FaMapMarked, FaMapMarker, FaMapPin, FaMapSigns, FaMicrophone, FaMicrophoneAlt, FaRegBell, FaSearch, FaSearchLocation, FaSpeakap, FaSpeakerDeck, FaVolumeUp } from 'react-icons/fa';
+import { FaBell, FaBellSlash, FaChartLine, FaComment, FaDownload, FaEnvelope, FaGoogle, FaLanguage, FaLocationArrow, FaMailBulk, FaMap, FaMapMarked, FaMapMarker, FaMapPin, FaMapSigns, FaMicrophone, FaMicrophoneAlt, FaRegBell, FaSearch, FaSearchLocation, FaSpeakap, FaSpeakerDeck, FaVolumeUp } from 'react-icons/fa';
 import "./searchbar.css";
 function Searchbar() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -32,17 +32,21 @@ function Searchbar() {
     </div>
     
     <div className='location'>
-    <FaMapMarker/>betkuli,karwar
+    <div className='map'><FaMapMarker/></div>betkuli,karwar
     <div className="inpt">
     <input
         type="search"
         value={searchTerm}
         onChange={handleSearch}
         placeholder="Search..."
+        
       />
-      <FaMicrophone/>
+      <div className="microph"><FaMicrophone/></div>
       <div className="search-btn"><FaSearch/></div>
       {/* <button>Search</button> */}</div>
+
+      <div className="download"><span>Download App</span></div>
+    <div className="dbtn"><FaDownload/></div>
     </div>
     </div>
     
