@@ -92,10 +92,6 @@ h6{
   
     
 }
-i{
-    padding-bottom: 5px;
-}
-
 
 .language svg {
     width: 30px; 
@@ -146,7 +142,7 @@ i{
     align-items: center;
     border: 1px solid black;
     width:200px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
     padding-left: 50px;
 }
@@ -209,10 +205,11 @@ i{
     padding-left: 40px; 
     /* padding-right: 40px; */
     width: 470px;
-    height:31px ;
+    height:50px ;
     border: 2px solid black;
+    border-radius: 10px ;
   }
-  
+
   .download {
     display: inline;
     white-space: nowrap;
@@ -235,6 +232,5 @@ i{
     display: flex;
     align-items: center ;
     padding-left: 5px;
-    padding-right: 5px;
     border-radius: 10px;
   }

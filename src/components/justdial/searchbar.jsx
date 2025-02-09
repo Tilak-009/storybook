@@ -38,7 +38,7 @@ function Searchbar() {
         type="search"
         value={searchTerm}
         onChange={handleSearch}
-        placeholder="Search..."
+        placeholder="Search in karwar"
         
       />
       <div className="microph"><FaMicrophone/></div>
