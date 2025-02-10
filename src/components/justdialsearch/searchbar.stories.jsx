@@ -2,7 +2,7 @@ import React from "react";
 import Searchbar from "./searchbar";
 
 export default {
-  title: "components/justdial/searchbar",
+  title: "components/justdialsearch/searchbar",
   component: Searchbar,
 };
 
