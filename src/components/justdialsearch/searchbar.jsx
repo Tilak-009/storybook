@@ -21,7 +21,7 @@ function Searchbar() {
     <p className='lead'><FaEnvelope/>Leads</p>
     <p className='advertize'><FaVolumeUp/>advertize</p>
     <p className='listening'> <h6 className='bz'>Bussiness</h6><FaChartLine/>Free listing </p>
-    <p className='bell'><FaBell/></p>
+    {/* <p className='bell'><FaBell/></p> */}
     <p className='upin'>signup/signin</p>
     </div>
    
@@ -38,7 +38,7 @@ function Searchbar() {
         type="search"
         value={searchTerm}
         onChange={handleSearch}
-        placeholder="Search in karwar"
+        // placeholder="Search in karwar"
         
       />
       <div className="microph"><FaMicrophone/></div>
