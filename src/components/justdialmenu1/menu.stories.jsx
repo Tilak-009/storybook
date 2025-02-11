@@ -1,9 +1,9 @@
 import React from "react";
-import menu from "./menu";
+import Menubar from "./Menubar";
 
 export default {
-  title: "components/justdialmenu1/menu",
-  component: menu,
+  title: "components/justdialmenu1/Menubar",
+  component: Menubar,
 };
 
-export const Default = () => <menu/>;
+export const Default = () => <Menubar/>;
