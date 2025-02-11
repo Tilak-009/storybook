@@ -1,0 +1,68 @@
+.logo{
+    padding-bottom: 60px;
+}
+.logo1 , .logo2 ,.timer {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 0%;
+    margin: 0%;
+    font-size: 26px;
+
+  }
+  
+  
+  .logo1{
+    color: rgb(0, 0, 175);
+  
+    margin: 0%;
+    padding: 0%;
+  
+  }
+
+  .logo2{
+    margin: 0%;
+    padding: 0%;
+    color: #ccc;
+  }
+  .timer{
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    background-color: blue;
+    border-radius: 30px;
+  
+  }
+.card-no,i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-no{
+    font-size:large;
+}
+
+i{
+    position: absolute;
+    left: 50%;
+    color: blue;
+}
+
+.etrcrd{
+    color: #605f5f;
+    font-size: small;
+}
+
+.ccv{
+    padding-top: 50px;
+}
+
+.crd,.cvv-input{
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.crd,p{
+    color: #605f5f;
+    font-size: small;
+}
