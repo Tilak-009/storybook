@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
-import {   FaCaretSquareLeft, FaCheckCircle, FaCircle, FaDotCircle, FaGooglePlay, FaPen, FaSquare } from 'react-icons/fa';
+import {   FaAddressCard, FaApple, FaCaretSquareLeft, FaCheckCircle, FaCircle, FaComment, FaCommentAlt, FaDotCircle, FaGooglePlay, FaPen, FaSdCard, FaSimCard, FaSquare, FaWifi } from 'react-icons/fa';
 import "./home.css"
-
+import mstrcard from "./icons/mastercard.png"
 
 
 function Homepage(){
@@ -32,7 +32,7 @@ function Homepage(){
 
       <div className="logo">
       <div className="lg" style={{ marginLeft: "50px"}}>
-
+      <img src={mstrcard} alt="mastercard logo"/>
       <div className="logo1">AceCoin</div>
       <div className="logo2">Pay</div></div>
       <div className="timer">{time}</div>
@@ -45,7 +45,7 @@ function Homepage(){
           <i><FaPen/>Edit</i>
           <div className="etrcrd"> enter the 16-digit card number on the card</div>
           <div style={{
-              border:"1px solid #ccc",
+              border:"1px solid black",
               width:"600px",
               height:"50px",
           }}>
@@ -71,11 +71,12 @@ function Homepage(){
       {/* <FaSquare className="crdicon"/> */}
           <input style={{
               width:"150px",
-              height:"50px"
+              height:"50px",
           }} 
            type="text" maxLength={4} 
+          
            />
-         <FaSquare className="crdicon"/>
+         {/* <FaSquare className="crdicon"/> */}
          </div>
       
   
@@ -98,7 +99,7 @@ function Homepage(){
               height:"50px"
           }} 
            type="text" maxLength={4} />          
-  <FaSquare className="timeicon"/>
+  {/* <FaSquare className="timeicon"/> */}
   </div>
   </div>
   
@@ -113,7 +114,7 @@ function Homepage(){
           }} 
            type="password" maxLength={10} />
 </div>
-           <FaSquare className="passicon"/>  
+           {/* <FaSquare className="passicon"/>   */}
   </div>
   </div>
   <div className="payn">
@@ -130,13 +131,71 @@ function Homepage(){
           height: "595px",
           width: "350px",
           flexDirection: "column",
+          alignItems:"center",
+         
+        
+
           
-        }}>
+        }}> 
+        <div className="box">
+
+          {/* outer */}
+        <div className="outer-box">
+
+          <div className="descr">
+            <p className="company">company</p>
+            <p className="apple"><FaApple/>Apple</p>
+            <p className="on">order number</p>
+            <p className="no">123456789</p>
+            <p className="product">product</p>
+            <p className="mac">mackbook air</p>
+            <p className="vat">Vat(20%)</p>
+            <p className="doller">$100.000</p>
+          </div>
+
+          <div className="pay">
+            <p className="yhp">you have to pay <br/><h3>549.99USD</h3></p>
+           
+            <p className="c-icon"><FaCommentAlt/></p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        {/* innerbox */}
+        <div className="inner-box">
+          <div className="mainicon">
+           <div className="m-icons"><FaSimCard className="simicon"/></div>
+        <div className="m-icon2"><FaWifi className="wifiicon"/></div> 
+        </div>
+                <div className="u-name">jonathan michael</div>
+        <div className="cardno">****  3456</div>
+
+
+        <div className="lg-expr">
+        <div className="expr">09/12</div>
+        <div className="lg1"><img src={mstrcard} alt={mstrcard} /></div>
+        </div>
+
+
+
+        
+        </div>
+        </div>
+              </div>
+
         </div>
       </div>
     </div>
   
-    </div>
+    // </div>
 
 
 

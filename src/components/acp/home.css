@@ -16,6 +16,7 @@
  }
   .logo1{
     color: rgb(0, 0, 175);
+    font-weight: bolder;
   
     margin: 0%;
     padding: 0%;
@@ -26,10 +27,12 @@
     margin: 0%;
     padding: 0%;
     color: #ccc;
+    font-weight: bolder;
   }
   .timer{
     position: absolute;
     left: 50%;
+    background-color: blue;
    
 
   }
@@ -56,10 +59,11 @@ i{
 .etrcrd{
     color: #605f5f;
     font-size: small;
+    padding-bottom: 20px;
 }
 
 .ccv{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 
@@ -92,7 +96,7 @@ i{
     font-size: 20px;
 }
 .ccv input{
-    border-color: blue;
+    border-color: rgb(0, 0, 0);
     
 
 }
@@ -101,12 +105,12 @@ i{
     background-color: rgb(125, 125, 229); ;
 }
 .times{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .times input{
     color :rgb(0, 0, 0);
-    border-color:rgb(17, 0, 255) ;
+    border-color:rgb(0, 0, 0) ;
 
     
 }
@@ -153,6 +157,13 @@ padding-top: 20px;
 font-weight: bolder;
 
 }
+.passwd input{
+    border-color: rgb(3, 3, 3);
+}
+.passwd input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229);
+}
 
 .pass{
     padding-right: 200px;
@@ -183,3 +194,157 @@ font-weight: bolder;
     display: inline-block;
     vertical-align: middle;
 }
+
+
+.box {
+    position: relative;
+    height: 100vh; /* or any other height value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outer-box {
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    border: 1px solid rgb(174, 173, 173);
+    z-index: 1;
+    bottom: 0px;
+    border-radius: 30px;
+    background-color: #ccc;
+  }
+  
+  .inner-box {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(183, 183, 183);
+    z-index: 2;
+    top: 0px;
+    border-radius:30px ;
+    background-color: white;
+
+  }
+  
+  .box
+  {
+    padding-top: 20px;
+  }
+
+
+
+  .m-icons,.m-icon2{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .m-icons{
+    padding-right: 130px;
+  }
+
+  .mainicon{
+    padding-bottom: 80px;
+  }
+
+
+  .u-name{
+   font-weight: bold;
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .cardno{
+    font-weight: bold;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lg-expr{
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+  
+  }
+
+
+
+  .descr{
+    padding-top: 170px;
+  }
+
+  .company,.apple{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .company{
+    padding-right: 110px;
+    font-weight: lighter;
+    font-style:italic;
+    
+  }
+  .apple{
+    font-weight: bolder;
+  }
+
+  .on,.no{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .on {
+    padding-right: 70px;
+    font-weight: lighter;
+  }
+  .no{
+    font-weight: bolder;
+  }
+  .product,.mac{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .product{
+    padding-right: 100px;
+    font-weight: lighter;
+  }
+
+  .mac{
+    font-weight: bolder;
+  }
+
+
+  .vat,.doller{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .vat{
+    padding-right: 100px;
+    font-weight: lighter;
+  }
+
+  .doller{
+    font-weight: bolder;
+  }
+
+  .yhp,.c-icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+    .yhp{
+       padding-right: 100px;
+    font-weight: lighter; 
+    }
+
+   
+   
+
+    .lg1 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
