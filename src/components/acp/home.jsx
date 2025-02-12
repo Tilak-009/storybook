@@ -31,11 +31,11 @@ function Homepage(){
         <div className="etrcrd"> enter the 16-digit card number on the card</div>
         <div style={{
             border:"1px solid #ccc",
-            width:"850px",
+            width:"600px",
             height:"50px",
         }}>
            <div class="input-container">
-  <input type="text" class="input-part" maxlength="4" opacity={0.4}/> <FaCircle size={12} color="#ccc" opacity={0.5} />
+  <input type="text" class="input-part" maxlength="4" opacity={0.4} width="2px"/> <FaCircle size={12} color="#ccc" opacity={0.5} />
 
   <input type="text" class="input-part" maxlength="4" opacity={0.4} /> <FaCircle size={12} color="#ccc" opacity={0.5} />
 
@@ -48,18 +48,15 @@ function Homepage(){
 
 
 <div className="ccv">
-    <div className="crd">
-    <strong>CVV Number</strong>
-    <p>Enter the 3 or 4  digit number on card</p></div>
+    <div className="crds">
+    CVV Number</div>
+    <div className="inptcard">Enter the 3 or 4  digit number on card</div>
     <div className="cvv-input">
         <input style={{
             width:"350px",
             height:"50px"
         }} 
          type="text" maxLength={4} />
-         
-         {/* <FaMore/> */}
-
 
     </div>
 

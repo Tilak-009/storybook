@@ -26,7 +26,7 @@
   }
   .timer{
     position: absolute;
-    left: 50%;
+    left: 40%;
     /* top: 50%; */
     /* transform: translateY(-50%); */
     background-color: blue;
@@ -40,10 +40,13 @@
 .card-no{
     font-size:large;
 }
+.input-part{
+    width: 100px;
+}
 
 i{
     position: absolute;
-    left: 50%;
+    left: 45%;
     color: blue;
 }
 
@@ -56,13 +59,22 @@ i{
     padding-top: 50px;
 }
 
-.crd,.cvv-input{
+.inptcard{
+    color: #605f5f;
+    font-size: small; 
+}
 
+.crds, .cvv-input {
     display: inline-block;
     vertical-align: middle;
+  }
+  
+  
 
+.crds{
+    font-weight: bolder;
 }
-.crd,p{
-    color: #605f5f;
-    font-size: small;
+
+.cvv-input,input{
+    font-size: 20px;
 }
