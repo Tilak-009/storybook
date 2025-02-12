@@ -1,7 +1,5 @@
-.logo{
-    padding-bottom: 60px;
-}
-.logo1 , .logo2 ,.timer {
+
+.logo1 , .logo2 ,.timer,.lg {
     display: inline-block;
     vertical-align: middle;
     padding-bottom: 0%;
@@ -10,7 +8,12 @@
 
   }
   
-  
+ .lg{
+    right: 50%;
+ }
+ .logo{
+    padding-top: 10px;
+ }
   .logo1{
     color: rgb(0, 0, 175);
   
@@ -26,12 +29,12 @@
   }
   .timer{
     position: absolute;
-    left: 40%;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    background-color: blue;
-    border-radius: 30px;
-  
+    left: 50%;
+   
+
+  }
+  .cardg{
+    padding-top: 50px;
   }
 .card-no,i{
     display: inline-block;
@@ -46,7 +49,7 @@
 
 i{
     position: absolute;
-    left: 45%;
+    left: 55%;
     color: blue;
 }
 
@@ -59,22 +62,124 @@ i{
     padding-top: 50px;
 }
 
-.inptcard{
-    color: #605f5f;
-    font-size: small; 
+
+
+.crd, .cvv-input {
+    display: inline-block;
+    vertical-align:  middle;
+
+
+  }
+ .crd p{
+    font-size: small;
+    color: #6a6a6a;
+    padding: 0%;
+    margin: 3px;
+    font-weight:lighter;
+ }
+
+
+.crd{
+    font-weight: bolder;
+    padding-right: 150px;
 }
 
-.crds, .cvv-input {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  
 
-.crds{
+.crdic{
+    padding-right:20px;
+}
+.cvv-input,input{
+    font-size: 20px;
+}
+.ccv input{
+    border-color: blue;
+    
+
+}
+.ccv input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229); ;
+}
+.times{
+    padding-top: 50px;
+}
+
+.times input{
+    color :rgb(0, 0, 0);
+    border-color:rgb(17, 0, 255) ;
+
+    
+}
+
+.times input:hover{
+    border-color: blue;
+    background-color: rgb(125, 125, 229);
+}
+
+.expdate,.month{
+    display: inline-block;
+    vertical-align:  top;
+
+}
+
+.expdate{
+    font-size: large;
+    padding-right: 100px;
+    font-weight: bolder;
+}
+.expdate p{
+    font-size: small;
+    color: #6a6a6a;
+    padding: 0%;
+    margin: 3px;
+    font-weight: lighter;
+} 
+.pass,.inpass{
+
+    display: inline-block;
+    vertical-align:  middle;
+}
+
+.pass p{
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+    color: #6a6a6a;
+    font-weight: lighter;
+}
+
+.passwd{
+padding-top: 20px;
+font-weight: bolder;
+
+}
+
+.pass{
+    padding-right: 200px;
+}
+
+.payn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.payn button{
+    width: 600px;
+    height: 60px;
+    color: black;
+    font-size: medium;
     font-weight: bolder;
 }
 
-.cvv-input,input{
-    font-size: 20px;
+.payn button:hover{
+    background-color: blue;
+    color: white
+}
+
+
+.painpt,.passicon{
+    display: inline-block;
+    vertical-align: middle;
 }
