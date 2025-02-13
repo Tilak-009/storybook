@@ -45,18 +45,18 @@ function Homepage(){
           <i><FaPen/>Edit</i>
           <div className="etrcrd"> enter the 16-digit card number on the card</div>
           <div style={{
-              border:"1px solid black",
+              border:"1px solid white",
               width:"600px",
               height:"50px",
           }}>
              <div class="input-container">
-    <input type="text" class="input-part" maxlength="4" opacity={0.4} width="2px"/> <FaCircle size={12} color="#ccc" opacity={0.5} />
+    <input type="text" class="input-part" maxlength="4" opacity={0.4}  /> <FaCircle size={12} color="black" opacity={0.5} />
   
-    <input type="text" class="input-part" maxlength="4" opacity={0.4} /> <FaCircle size={12} color="#ccc" opacity={0.5} />
+    <input type="text" class="input-part" maxlength="4" opacity={0.4} /> <FaCircle size={12} color="black" opacity={0.5} />
   
-    <input type="text" class="input-part" maxlength="4" opacity={0.4}/> <FaCircle size={12} color="#ccc" opacity={0.5} />
+    <input type="text" class="input-part" maxlength="4" opacity={0.4}/> <FaCircle size={12} color="black" opacity={0.5} />
   
-    <input type="text" class="input-part" maxlength="4" opacity={0.4}/> <FaCircle size={12} color="#ccc" opacity={0.5} />
+    <input type="text" class="input-part" maxlength="4" opacity={0.4}/> <FaCircle size={12} color="black" opacity={0.5} />
   
     <FaCheckCircle color="blue"/>
   </div>
