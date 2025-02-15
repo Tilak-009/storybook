@@ -1,8 +1,11 @@
 import React from "react";
-import { FaCheck, FaCheckCircle } from "react-icons/fa";
+import { FaCheck, FaCheckCircle, FaInfo } from "react-icons/fa";
 import "./order.css"
-import shoe1 from "./images/shoe1.jpg"
-
+// import shoe1 from "./images/shoe1.jpg"
+import shoe2 from "./images/shoe2.jpg"
+import shoe3 from "./images/shoe3.jpg"
+import shoe4 from "./images/shoe4.jpg"
+import fed from "./images/fedex.jpg"
 function Shoeorder(){
 
     return(
@@ -13,32 +16,32 @@ function Shoeorder(){
     border:"1px solid black",
     display:"flex",
     flexDirection:"column",        
-    height:"800px",
+    height:"790px",
     width:"1000px",
-    // borderColor:"white"
+    borderColor:"white"
 
 
 }}>
     {/* 1small div */}
 <div style={{
     border:"1px solid black",
-    height:"70px",
-    // borderTopColor:"white",
-    // borderRightColor:"white",
-    // borderLeftColor:"white"
+    height:"60px",
+    borderTopColor:"white",
+    borderRightColor:"white",
+    borderLeftColor:"white",
      display:"flex",
     flexDirection:"column",
     
 }}><div className="h-comp">
-    <p className="w-u">WearUp</p>
+    <p className="w-u">WearUp.</p>
     <p className="slaz">|</p>
-    <p className="or">order review</p>
-    <p className="info"><FaCheckCircle/>informstion</p>
+    <p className="or">order overreview</p>
+    <p className="info"><FaCheckCircle className="check"/><strong>information</strong></p>
     <p className="dash1">-----</p>
     <p className="p-d2">2</p>
     <p className="p-d">payment details</p>
     <p className="dash1">-----</p>
-    <p className="c-o3">3</p>
+    <p className="p-d2">3</p>
     <p className="c-o">complete order</p>
     </div>
     </div>
@@ -52,7 +55,7 @@ function Shoeorder(){
     flexDirection:"row",        
     height:"730px",
     width:"1000px",
-    // borderColor:"white"
+    borderColor:"white"
 
 
 }}>
@@ -70,13 +73,14 @@ function Shoeorder(){
 }}> <div className="ordersum"><strong className="s-o">Summary Order</strong><br/>
 <p className="summary">check your item and select your shopping for <br/>better experience order item</p>
 {/* left iner box */}
+<div className="lib">
 <div style={{
 border:"2px solid #ccc",
-width:"450px",
+width:"440px",
 display:"flex",
 justifyContent:"center",
 alignItems:"center",
-borderRadius:"30px",
+borderRadius:"20px",
 height:"310x",
 
 
@@ -99,7 +103,7 @@ flexDirection:"row",
     border:"2px solid #ccc",
     width:"100px",
     height:"80px",
-    }}><img src={shoe1}/></div>
+    }}><img src={shoe4}/></div>
 <div className="dscr1">New balance 57/40 <br/> mens Sneeker<br/><h3>$129.00</h3></div>
 <div className="id1"><i>42EU-8.2Us</i></div>
     </div>
@@ -120,7 +124,7 @@ height:"100px",}}>
     border:"2px solid #ccc",
     width:"100px",
     height:"80px",
-    }}><img src={shoe1}/></div>
+    }}><img src={shoe2}/></div>
     <div className="dscr2">New balance 990TH <br/> mens Sneeker<br/><h3>$119.00</h3></div>
     <div className="id2"><i>42.5EU-9Us</i></div>
     </div>
@@ -140,14 +144,31 @@ height:"100px",}}>
     width:"100px",
     height:"80px",
     }}>
-        <img src={shoe1}/>
+        <img src={shoe3}/>
+ 
+        </div>
         <div className="dscr3">New balance 57/42 <br/> Womens Sneeker<h3>$194.00</h3></div>
-    <div className="id3"><i>41.5EU-8Us</i></div>
+        <div className="id3"><i>41.5EU-8Us</i></div>
+
         </div>
     </div>
     </div>
 </div>
 
+</div>
+
+<div className="shm"><strong className="ss-method">Available shoping methods <span className="inicon"><FaInfo/></span></strong>
+<div className="p-c">
+    <div style={{
+        // border:"1px solid #ccc",
+        width:80,
+        height:60,
+
+    }}>
+        <img src={fed}/>
+        </div>
+        <div className="freddesc"></div>
+</div>
 </div>
 </div>
 </div>
