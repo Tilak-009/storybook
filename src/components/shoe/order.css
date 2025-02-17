@@ -1,5 +1,13 @@
 *{
     font-family: sans-serif;
+
+    
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lib{
@@ -175,11 +183,180 @@
     height: 10px;
   }
 
- .ss-method{
-    padding-bottom: 20px;
-  }
+ .fedbor{
+border:1px solid black;
+width: 400px;
+height: 70px;
+border-radius: 5px;
+ }
 
-  .p-c,.ss-method{
-  gap: 50px;
+
+ .fedbor:hover{
+background-color: #ccc;
+border:2px solid black;
+ }
+.fedbor img{
+  padding-top: 10px;
+}
+
+.delivery{
+  padding-bottom: 18px;
+  padding-inline: 35px;
+}
+
+.delivery strong{
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.delivery i{
+
+  font-size: small;
+  color: #686666;
+}
+.delivery b{
+  padding-left: 65px;
+  /* border: 1px solid black; */
+  
+}
+
+.fbtn{
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 5px;
+
+}
+.fbtn:hover{
+  border: 2px solid black;
+}
+.f{
+  padding-inline: 3px;
+}
+
+.delivery b button{
+  height: 17px;
+  width: 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+  border-color: black;
+  margin: 1px;
+  margin-top: 1px;
+}
+
+.delivery b button:hover{
+  background-color: black;
+  border-color: rgb(190, 188, 188);
+  
+}
+
+.ip{
+  display: flex;
+  vertical-align: middle;
+}
+
+.ip{
+  margin: 0%;
+  font-size: small;
+  color: #878282;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
+
+.delivery2{
+  padding-bottom: 18px;
+  padding-inline: 35px;
+}
+
+.dhlbor{
+  border:1px solid black;
+  width: 400px;
+  height: 70px;
+  border-radius: 5px;
+   }
+
+   .dhlbor img{
+    padding-top: 10px;
+   }
+   
+   .p-c2{
+    padding-top: 20px;
+   }
+   .delivery2 i{
+    font-size: small;
+    color: #686666;
+   }
+
+
+   .fbtn2{
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 5px;
+   }
+
+
+
+   .delivery2 b button{
+    height: 17px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-color: black;
+    margin: 1px;
+    margin-top: 1px;
+   }
+
+
+   .delivery2 b{
+    padding-left: 60px;
+    /* border: 1px solid black; */
     
   }
+
+
+  .delivery2 b button:hover{
+    background-color: black;
+    border-color: rgb(190, 188, 188);
+    
+  }
+
+
+  .f1{
+    padding-inline: 2px;
+  }
+
+  .dhlbor:hover{
+    background-color: #ccc;
+    border:2px solid black;
+     }
+
+  .payment-m {
+    background-color: #f8f8f8;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+  }
+
+  .p-section{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  }
+ 
+  .p-details{
+    font-size: larger;
+    font-weight: bolder;
+    
+  
+  }
+.p-dscr{
+  margin: 0%;
+}
+
+.p-dscr b{
+  font-size: small;
+  font-weight:bold ;
+  /* padding-top: 10px; */
+  color: #8c8b8b;
+}

@@ -1,22 +1,24 @@
 import React from "react";
-import { FaCheck, FaCheckCircle, FaInfo } from "react-icons/fa";
+import { FaAt, FaCheck, FaCheckCircle, FaInfo } from "react-icons/fa";
 import "./order.css"
 // import shoe1 from "./images/shoe1.jpg"
 import shoe2 from "./images/shoe2.jpg"
 import shoe3 from "./images/shoe3.jpg"
 import shoe4 from "./images/shoe4.jpg"
 import fed from "./images/fedex.jpg"
+import dhl from "./images/DHL.png"
 function Shoeorder(){
 
     return(
 
 
 // main div
+<div className="main">
 <div style={{
     border:"1px solid black",
     display:"flex",
     flexDirection:"column",        
-    height:"790px",
+    height:"780px",
     width:"1000px",
     borderColor:"white"
 
@@ -35,7 +37,7 @@ function Shoeorder(){
 }}><div className="h-comp">
     <p className="w-u">WearUp.</p>
     <p className="slaz">|</p>
-    <p className="or">order overreview</p>
+    <p className="or">Order Overreview</p>
     <p className="info"><FaCheckCircle className="check"/><strong>information</strong></p>
     <p className="dash1">-----</p>
     <p className="p-d2">2</p>
@@ -63,14 +65,15 @@ function Shoeorder(){
     <div style={{
     border:"1px solid black",        
     height:"730px",
-    width:"550px",
+    width:"640px",
     display:"flex",
     justifyContent:"center",
     
-    // borderColor:"white"
+    borderColor:"white"
 
 
-}}> <div className="ordersum"><strong className="s-o">Summary Order</strong><br/>
+}}> <div className="ordersum">
+    <strong className="s-o">Summary Order</strong><br/>
 <p className="summary">check your item and select your shopping for <br/>better experience order item</p>
 {/* left iner box */}
 <div className="lib">
@@ -82,6 +85,7 @@ justifyContent:"center",
 alignItems:"center",
 borderRadius:"20px",
 height:"310x",
+
 
 
 flexDirection:"column"
@@ -160,32 +164,103 @@ height:"100px",}}>
 <div className="shm"><strong className="ss-method">Available shoping methods <span className="inicon"><FaInfo/></span></strong>
 <div className="p-c">
     <div style={{
-        // border:"1px solid #ccc",
+        
         width:80,
         height:60,
+        paddingTop:20
 
     }}>
+        <div className="fedbor">
+     
         <img src={fed}/>
+        
+       <p className="delivery"><strong>FedEx delivery</strong>  <b><span className="f"> FREE</span>
+         <span className="fbtn"><button onClick={SubmitEvent}></button></span>
+       </b><br/>
+       <i>delivery at 2-3 works</i>
+     </p>
+     <p className="ip">Available internationl shopping</p>
         </div>
-        <div className="freddesc"></div>
+   
+
+        <div className="dhl">
+    <div style={{
+        
+        width:80,
+        height:60,
+        paddingTop:20
+
+    }}>
+
+        <div className="p-c2">
+        <div className="dhlbor">
+     
+        <img src={dhl}/>
+        
+       <p className="delivery2"><strong>FedEx delivery</strong>
+         <b><span className="f1"> 12.00$</span>
+         <span className="fbtn2"><button onClick={SubmitEvent}></button></span>
+       </b><br/>
+       <i>delivery at 1-3 works</i>
+     </p>
+        </div>
+        </div>
+        </div>
+</div>
+        </div>
 </div>
 </div>
 </div>
 </div>
 
 {/* right */}
+<div className="payment-m">
    <div style={{
     border:"1px solid black",        
     height:"730px",
-    width:"550px",
-    // borderColor:"white"
+    width:"460px",
+    borderColor:"white"
+   
 
 
-}}></div>
+}}>
+<div className="p-section">
+   <div className="p-dscr"> <strong className="p-details">Payment Details</strong><br/>
+   <b >complete your purchase items by providing your <br/>
+   Payment details order</b>
+   <div className="e-input">
+    <p><strong>Email</strong><FaAt className="@"/> <FaCheckCircle className="c-c"/><br/>
+    <input type="email"
+    id="email"
+    placeholder="Enter Email"
+    
+    /></p>
+   </div> 
+   <div className="d-card">
+    <p className="dd">
+        <strong>Debit card</strong><br/>
+        <input type="string"
+        id ="card no."
+        placeholder="enter valid card number"></input>
+        <div className="cvc"><div style={{
+                border:"1px solid black",
+                
+        }}></div>
+        </div>
+            </p>
+   </div>
+   </div>
 
+
+</div>
+</div>
+</div>
+
+</div>
 </div>
 </div>
       
     )}
+
     
     export default Shoeorder;
