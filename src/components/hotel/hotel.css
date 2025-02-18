@@ -1,0 +1,25 @@
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof,.name,.saved{
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+
+
+.profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+.saved{
+    padding-left: 280px;
+}
+.prof{
+    padding: 10px;
+}

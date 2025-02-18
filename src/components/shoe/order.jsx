@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAt, FaCheck, FaCheckCircle, FaInfo } from "react-icons/fa";
+import { FaAt, FaBaby, FaCalendar, FaCheck, FaCheckCircle, FaContao, FaInfo, FaMale, FaMendeley, FaPeopleArrows, FaPeopleCarry, FaPersonBooth, FaPhone, FaPhoneSquareAlt } from "react-icons/fa";
 import "./order.css"
 // import shoe1 from "./images/shoe1.jpg"
 import shoe2 from "./images/shoe2.jpg"
@@ -7,6 +7,7 @@ import shoe3 from "./images/shoe3.jpg"
 import shoe4 from "./images/shoe4.jpg"
 import fed from "./images/fedex.jpg"
 import dhl from "./images/DHL.png"
+import { number } from "prop-types";
 function Shoeorder(){
 
     return(
@@ -229,25 +230,43 @@ height:"100px",}}>
    <b >complete your purchase items by providing your <br/>
    Payment details order</b>
    <div className="e-input">
-    <p><strong>Email</strong><FaAt className="@"/> <FaCheckCircle className="c-c"/><br/>
-    <input type="email"
-    id="email"
-    placeholder="Enter Email"
-    
-    /></p>
+   <p className="input-container">
+  <strong>Email</strong>
+  <FaAt className="at"/>
+  <FaCheckCircle className="c-c"/>
+  <br/>
+  <input type="email" id="email" className="input-field" placeholder="Enter Email" />
+</p>
+
    </div> 
    <div className="d-card">
     <p className="dd">
-        <strong>Debit card</strong><br/>
+        <strong>Debit card</strong>
+        <FaCalendar className="cal"/><br/>
         <input type="string"
-        id ="card no."
-        placeholder="enter valid card number"></input>
-        <div className="cvc"><div style={{
-                border:"1px solid black",
-                
-        }}></div>
+        id ="card-no"
+        placeholder="card number          "/>
+<div className="my">
+        <input type="text"
+        id="number"
+        placeholder="MM/YY"
+        />
+       </div>
+        <div className="ccv">
+   <input type="text" 
+   placeholder="CVC"/>
         </div>
             </p>
+
+            <div className="card-h">
+                < p className="c-h">
+                <strong>Card Holder</strong><br/>
+                <FaMale className="ml"/>
+                <input type="text"
+                placeholder="card-holder name"/>
+               
+                </p>
+                </div>    
    </div>
    </div>
 

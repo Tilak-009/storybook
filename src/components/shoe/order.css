@@ -360,3 +360,86 @@ border:2px solid black;
   /* padding-top: 10px; */
   color: #8c8b8b;
 }
+
+.input-container {
+  position: relative;
+}
+
+.at {
+  position: absolute;
+  top:60%;
+  left: 10px;
+}
+
+.c-c {
+  position: absolute;
+  top: 60%;
+  
+  right: 10px;
+}
+
+.input-field {
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+
+.input-container input{
+ width: 400px;
+ border-radius: 5px;
+ padding: 15px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ padding-bottom: 15px;
+}
+
+
+.at {
+  color: #b7b6b6;
+}
+
+.c-c{
+  color: green;
+}
+
+.dd input{
+  height: 50px;
+  width: 200px;
+}
+
+.my input{
+  width: 70px;
+}
+
+.ccv input{
+  width: 80px;
+}
+
+
+.dd {
+  display: block;
+}
+
+#card-no, .my, .ccv {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#card-no {
+  width: 51%;
+
+}
+
+.dd{
+  position: relative;
+}
+
+.cal{
+  position: absolute;
+  top:50%;
+  left: 10px;
+}
+
+#card-no{
+  padding-left: 40px;
+}
