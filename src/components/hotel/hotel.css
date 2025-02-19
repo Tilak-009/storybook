@@ -17,9 +17,31 @@
    align-items: center;
    padding-top: 50px;
 }
+.name{
+    color: white;
+    margin: 0%;
+}
 .saved{
     padding-left: 280px;
+  
 }
 .prof{
     padding: 10px;
 }
+.subin {
+    background-image: url('./images/bgg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 49px;
+    /* background-blend-mode:lighten; */
+
+  }
+
+  .reco{
+    padding-top: 50px;
+    font-weight: bold;
+    padding-left: 45px;
+    color: white;
+  }
+  
+  
