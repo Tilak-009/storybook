@@ -107,3 +107,98 @@ padding-top: 10px;
 .mdsc3 b{
     font-size: small;
 }
+
+.mores{
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+.mores b{
+padding-left: 50px;
+color: rgb(4, 67, 4);
+}
+
+.fec{
+    border: 1px solid black;
+    width: 400px;
+    
+    border-radius: 30px;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+
+.hm, h4 ,.rt{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hm{
+    padding-right: 5px;
+    padding-left:30px;
+    font-size: medium;
+}
+.rt{
+    padding-left:230px;
+    font-size: xx-large;
+    color: green;
+    
+
+}
+
+.rt:hover{
+color: rgb(0, 65, 0);
+}
+
+.key{
+   
+    border: 1px solid black;
+    width: 400px;
+    
+    border-radius: 30px;
+    position: absolute;
+    left: 40px;
+    top: 180px;
+}
+
+.ky, h4 ,.rt2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ky{
+    padding-right: 5px;
+    padding-left:30px;
+    font-size: medium;
+} 
+.rt2{
+    padding-left:210px;
+    font-size: xx-large;
+    color: green;
+    /* padding-top: 20px; */
+    
+
+}
+
+.rt2:hover{
+color: rgb(0, 65, 0);
+}
+.bed{   
+     border: 1px solid black;
+    width: 400px;
+    
+    border-radius: 30px;
+    position: absolute;
+    left: 40px;
+    top: 260px;
+}
+
+.ordr{   
+    border: 1px solid black;
+   width: 400px;
+   
+   border-radius: 30px;
+   position: absolute;
+   left: 40px;
+   top: 360px;
+}

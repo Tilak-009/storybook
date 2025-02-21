@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBlog, FaRegSave, FaSave } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaBed, FaBlog, FaFirstOrder, FaHome, FaKey, FaRegSave, FaSave, FaUtensils } from "react-icons/fa";
 import "./hotel.css";
 import logo from "./images/logo.jpeg";
 import main from "./images/mainbg.webp"
@@ -120,7 +120,9 @@ function Managment(){
         </div>
 <div className="mcontent">
 <p><b className="p-s">popular experiences</b></p>
-</div>
+
+
+
 <div className="exp" style={{ display: 'flex', flexDirection: 'row',gap:8 }}>
 
 
@@ -209,10 +211,21 @@ function Managment(){
         </div>
         
         </div>
+<div className="mores">
 
+
+    <b>All Services</b>
+
+    <div className="fec"><FaHome className="hm"/> <h4>Facilities</h4> <FaArrowAltCircleRight className="rt"/></div>
+    
+    <div className="key"><FaKey className="ky"/> <h4>  virtual keys</h4> <FaArrowAltCircleRight className="rt2"/></div>
+
+    <div className="bed"><FaBed className="bd"/> <h4>  my room</h4> <FaArrowAltCircleRight className="rt3"/></div>
+    <div className="ordr"><FaUtensils className="fd"/> <h4>  order room Services</h4> <FaArrowAltCircleRight className="rt4"/></div>
+</div>
 
         </div>
-
+        </div>
         
         </div>
 </div>
