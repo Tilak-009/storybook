@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowAltCircleRight, FaBed, FaBlog, FaFirstOrder, FaHome, FaKey, FaRegSave, FaSave, FaUtensils } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaBed, FaBlog, FaFirstOrder, FaHome, FaKey, FaPersonBooth, FaRegSave, FaSave, FaUtensils } from "react-icons/fa";
 import "./hotel.css";
 import logo from "./images/logo.jpeg";
 import main from "./images/mainbg.webp"
@@ -223,6 +223,13 @@ function Managment(){
     <div className="bed"><FaBed className="bd"/> <h4>  my room</h4> <FaArrowAltCircleRight className="rt3"/></div>
     <div className="ordr"><FaUtensils className="fd"/> <h4>  order room Services</h4> <FaArrowAltCircleRight className="rt4"/></div>
 </div>
+<div className="points">
+
+    <div className="pt">      <h1>06</h1><br/>Points</div>
+    <div className="dpts"><b>accumate poitns with your stay<br/>
+    they will turn into special need to you</b></div>
+</div>
+
 
         </div>
         </div>
