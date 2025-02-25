@@ -1,0 +1,24 @@
+.fr{
+    color: green;
+    font-size: large;
+}
+
+.bds,.stear,.bltu{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.stear{
+    padding-left: 10px;
+}
+
+.bltu{
+    padding-left: 10px;
+}
+
+.imgbx1 {
+    width: 230px;
+    height:150px;
+    background-image: url("images/jsw.jpg");
+}
