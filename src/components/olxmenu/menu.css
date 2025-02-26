@@ -3,7 +3,7 @@
     font-size: large;
 }
 
-.bds,.stear,.bltu{
+.bds,.stear,.bltu,.smart{
     display: inline-block;
     vertical-align: middle;
     
@@ -17,8 +17,23 @@
     padding-left: 10px;
 }
 
-.imgbx1 {
-    width: 230px;
-    height:150px;
-    background-image: url("images/jsw.jpg");
+.stear img{
+    width:230px;
+    height:150px
+}
+
+
+.bds img{
+    width:230px;
+    height:150px
+}
+
+.bltu img{
+    width:230px;
+    height:150px
+}
+
+.smart img{
+    width:230px;
+    height:150px
 }
