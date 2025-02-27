@@ -24,7 +24,7 @@ function Menu(){
             display:"flex",
             justifyContent:"center",
             // alignItems:"center"
-        }}>
+        }}><b></b>
             
             <div style={{
                 width:230,
@@ -34,6 +34,8 @@ function Menu(){
                 
         }}> 
             <img src={bed} />
+            24000<br/>
+            uju
         </div>
         </div>
 </div>
@@ -101,7 +103,7 @@ function Menu(){
                 
         }}> 
         <img src={smr} />
-       
+       <FaHeart className="slk"/>
         </div>
        
         </div>
