@@ -34,8 +34,7 @@ function Menu(){
                 
         }}> 
             <img src={bed} />
-            24000<br/>
-            uju
+            
         </div>
         </div>
 </div>
