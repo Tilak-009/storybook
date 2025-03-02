@@ -20,12 +20,18 @@ function Menu(){
         <div style={{
             border:"1px solid black",
             width:250,
-            height:400,
+            height:300,
             display:"flex",
             justifyContent:"center",
             // alignItems:"center"
-        }}><b></b>
-            
+        }}>
+            <div className="dscr1">
+               <p > <b>$14,500</b> <br/>
+               <i className="is">2bds - 2ba-900ft2<br/>
+               Makhmalabad, nasik 422004<br/>
+               <i className="mg">MAKHAMALABED GAOTHAL NASAK </i>
+               </i></p>
+            </div>
             <div style={{
                 width:230,
                 height:150,
@@ -43,12 +49,18 @@ function Menu(){
         <div style={{
             border:"1px solid black",
             width:250,
-            height:400,
+            height:300,
             display:"flex",
             justifyContent:"center",
             // alignItems:"center"
         }}>
-            
+                <div className="dscr2">
+               <p > <b>$2,500</b> <br/>
+               <i className="is">2bds - 2ba-900ft2<br/>
+               Makhmalabad, nasik 422004<br/>
+               <i className="mg">MAKHAMALABED GAOTHAL NASAK </i>
+               </i></p>
+            </div>
 
             <div style={{
                 width:230,
@@ -64,12 +76,19 @@ function Menu(){
         <div style={{
             border:"1px solid black",
             width:250,
-            height:400,
+            height:300,
             display:"flex",
             justifyContent:"center",
             // alignItems:"center"
         }}>
             
+            <div className="dscr3">
+               <p > <b>$500</b> <br/>
+               <i className="is">2bds - 2ba-900ft2<br/>
+               Makhmalabad, nasik 422004<br/>
+               <i className="mg">MAKHAMALABED GAOTHAL NASAK </i>
+               </i></p>
+            </div>
 
             <div style={{
             
@@ -85,12 +104,21 @@ function Menu(){
         <div style={{
             border:"1px solid black",
             width:250,
-            height:400,
+            height:300,
             display:"flex",
             justifyContent:"center",
             // alignItems:"center"
             top:"120px"
         }}>
+              
+              <div className="dscr4">
+               <p > <b>$30,000</b> <br/>
+               <i className="is">2bds - 2ba-900ft2<br/>
+               Makhmalabad, nasik 422004<br/>
+               <i className="mg">MAKHAMALABED GAOTHAL NASAK </i>
+               </i></p>
+            </div>
+
            
 
             <div style={{
