@@ -12,25 +12,38 @@ const SidebarMenu = ({ items, selected }) => {
       <div class="half left">
     <div className="mbody">
       <div className="heading">
-        <div className="heading">
+        
           
        {/* <div className="logo" ><img src={logo}/></div> */}
           <h3 className="foodie">foodi</h3>
           <h3 className="slice">slice</h3>
-          <div className="btmdesc">
-          <div className="btmimg"><img src={bottom} />
-          <h2>how to order food?</h2>
+  </div>
+          <div className="btmimg"> 
+     <div style={{
+  
+              position:"absolute",
+             top:"750px",
+             left:"80px",
+              width:"300px",
+              height:"150px",
+         
+            }}>
+              <div className="bcimg">
+              
+          
+              <img src={bottom}/>
+            </div></div>
+        <h2>how to order food?</h2>
 <b>
             <p>ordering food froms our web app is<br/>
              seamless and delightfull experirnce designed<br/>
               to satisfy you effortlessly</p>
               </b>
-          </div>
 </div>
     </div>
         </div>
 
-      </div>
+      
 
       <ul>
         {items.map((item) => (
@@ -44,9 +57,8 @@ const SidebarMenu = ({ items, selected }) => {
         ))}
       </ul>
     
-    </div>
-  
-   </div>
+</div>
+
    
   );
 };

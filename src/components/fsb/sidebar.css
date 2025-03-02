@@ -8,8 +8,15 @@
     gap: 0;
     margin-right: 0;
     text-align: center;
+
     
   }
+.heading{
+  width:150px;
+  position: absolute;
+  left: 80px;
+ top: 5px;
+}
 /* 
  img{
 align-items: left;
@@ -26,12 +33,13 @@ will-change: transform;
 } */ */
 .heading{
   margin-right:100px;
-  padding-bottom: 0;
-  margin-top: 0;
-  padding-top: 15px;
-  font-size:large;
-  text-align: left;
-  padding-left: 25px; 
+  
+  margin-top: 10;
+ 
+  font-size:large; 
+  position: absolute;
+ 
+  bottom:2px
 
   
 }
@@ -72,7 +80,8 @@ ul {
   margin-top: 0;
   padding-top: 0;
   align-items: right;
-  padding-bottom: 800px;
+  position: absolute;
+  bottom: 100px;
 
 
 }
@@ -99,14 +108,14 @@ img{
   
   .btmimg h2 {
     position: absolute;
-    bottom:-520px;
+    bottom:-320px;
   left: 20px;
   }
   
 
   .btmimg p {
     position: absolute;
-    bottom:-580px;
+    bottom:-380px;
   left: 20px;
   }
   
