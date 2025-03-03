@@ -109,8 +109,8 @@ flexDirection:"row",
     width:"100px",
     height:"80px",
     }}><img src={shoe4}/></div>
-<div className="dscr1">New balance 57/40 <br/> mens Sneeker<br/><h3>$129.00</h3></div>
-<div className="id1"><i>42EU-8.2Us</i></div>
+  
+
     </div>
 
 
@@ -130,8 +130,7 @@ height:"100px",}}>
     width:"100px",
     height:"80px",
     }}><img src={shoe2}/></div>
-    <div className="dscr2">New balance 990TH <br/> mens Sneeker<br/><h3>$119.00</h3></div>
-    <div className="id2"><i>42.5EU-9Us</i></div>
+    
     </div>
 
 </div>
@@ -152,8 +151,7 @@ height:"100px",}}>
         <img src={shoe3}/>
  
         </div>
-        <div className="dscr3">New balance 57/42 <br/> Womens Sneeker<h3>$194.00</h3></div>
-        <div className="id3"><i>41.5EU-8Us</i></div>
+   
 
         </div>
     </div>
