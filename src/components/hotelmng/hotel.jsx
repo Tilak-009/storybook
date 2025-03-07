@@ -241,7 +241,7 @@ function Hotelmanagment(){
                     <h3 className="mo">My Order</h3>
 <div className="orderty">
 <div className="type1" style={{
-    border:"1px solid black",
+   
     width:"320px",
     height:"70px"
 
@@ -276,7 +276,7 @@ function Hotelmanagment(){
 </div>
 
 <div className="type2" style={{
-    border:"1px solid black",
+ 
     width:"320px",
     height:"70px"
 
@@ -290,42 +290,136 @@ function Hotelmanagment(){
         style={ 
             {height:70,
             width:100}
-            }/> <div className="order2">
-            <p>
-            <b>Sushi set A</b>  $79.99
-        </p>
-            <br/>
-        <div className="obt2">
- 
-  <button onClick={() => setCount2(count2 - 1)}>-</button>
-  <h5>{count2}</h5>
-  <button onClick={() => setCount2(count2 + 1)}>+</button>
-  <FaSave className="sv"/>
-</div></div></div></div>
+            }/>
             </div>
+            <div className="order2">
+                <p>
+                <b>Sushi set B</b>  $39.50
+            </p>
+                <br/>
+            <div className="obt2">
+     
+      <button onClick={() => setCount2(count2 - 1)}>-</button>
+      <h5>{count2}</h5>
+      <button onClick={() => setCount2(count2 + 1)}>+</button>
+      <FaSave className="sv"/>
+    </div>
+   
+            </div>
+    </div>
+
+</div>
+
+
+
+
+<div className="type3" style={{
+ 
+    width:"320px",
+    height:"70px"
+
+}}>
+    <div className="oib3" style={{
+        height:70,
+        width:320
+    }}>
+<div className="oi3">
+        <img src={dish1} 
+        style={ 
+            {height:70,
+            width:100}
+            }/>
+            </div>
+            <div className="order3">
+                <p>
+                <b>Origial Bread</b>  $2.99
+            </p>
+                <br/>
+            <div className="obt3">
+     
+      <button onClick={() => setCount3(count3 - 1)}>-</button>
+      <h5>{count3}</h5>
+      <button onClick={() => setCount3(count3 + 1)}>+</button>
+      <FaSave className="sv"/>
+    </div>
+   
+            </div>
+    </div>
+
+</div>
+
+
+
+
+<div className="type4" style={{
+    
+    width:"320px",
+    height:"70px"
+
+}}>
+    <div className="oib4" style={{
+        height:70,
+        width:320
+    }}>
+<div className="oi4">
+        <img src={dish1} 
+        style={ 
+            {height:70,
+            width:100}
+            }/>
+            </div>
+            <div className="order4">
+                <p>
+                <b>Origial Bread</b>  $2.99
+            </p>
+                <br/>
+            <div className="obt4">
+     
+      <button onClick={() => setCount4(count4 - 1)}>-</button>
+      <h5>{count4}</h5>
+      <button onClick={() => setCount4(count4 + 1)}>+</button>
+      <FaSave className="sv"/>
+    </div>
+   
+            </div>
+    </div>
+
+
+
+</div>
+
+<div className="coupen" style={{
+    
+    width:"320px",
+    height:"70px",
+  
+
+}}> <p>You have Three Coupens <b>Use Now</b></p></div>
+
+
+<div className="bill">
+    <div  style={{
+    border:"2px solid black ",
+    width:"320px",
+    
+}}>
+
+</div>
+   <div className="subt"> <b>sub total</b> <p>$259.59</p></div>
+   <div className="df"> <b>delivery fee </b>  <p>$5.20</p></div>
+   <div className="tax"> <b>taxes </b><p>$39.20</p></div>
+
+   <div  style={{
+    border:"2px solid black ",
+    width:"320px",}}></div>
+
+    <div className="total"><h2 className="tot">total </h2><h2 className="totp">$395.40</h2></div>
+   </div>
 
    
 </div>
 
      
-
-    {/* <div>
-      <h2>Counter: {count2}</h2>
-      <button onClick={() => setCount2(count2 - 1)}>Decrement</button>
-      <button onClick={() => setCount2(count2 + 1)}>Increment</button>
-    </div> */}
-
-    {/* <div>
-      <h2>Counter: {count3}</h2>
-      <button onClick={() => setCount3(count3 - 1)}>Decrement</button>
-      <button onClick={() => setCount3(count3 + 1)}>Increment</button>
-    </div> */}
-{/* 
-    <div>
-      <h2>Counter: {count4}</h2>
-      <button onClick={() => setCount4(count4 - 1)}>Decrement</button>
-      <button onClick={() => setCount4(count4 + 1)}>Increment</button>
-    </div> */}
 
 
                         
