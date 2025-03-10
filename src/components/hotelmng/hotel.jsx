@@ -1,8 +1,9 @@
 import React, { useState } from "react"; 
 import { FaFacebook ,FaEllipsisH,FaBars, FaArrowDown, FaCaretDown, FaSearch, FaCaretLeft, FaArrowRight, FaUtensils, FaHamburger, FaPizzaSlice, FaPastafarianism, FaPaste, FaUtensilSpoon, FaFish, FaDrumstickBite, FaCuttlefish, FaTimes, FaTimesCircle, FaClock, FaInfoCircle, FaHome, FaBox, FaSave} from 'react-icons/fa';
 import "./hotel1.css"
-import dish from "./images/dish.jpg"
-import dish1 from "./images/dish1.jpeg"
+import dish from "./images/dish3.jpg"
+import dish1 from "./images/dish4.jpg"
+
 
 function Hotelmanagment(){
     const [count1, setCount1] = useState(0);
@@ -59,7 +60,7 @@ function Hotelmanagment(){
 
                                 
                             }}> 
-                            <img src={dish} />
+                            <img src={dish1} />
                             </div>
                         </div>
                         <div className="dot6"><FaEllipsisH size={30}/> <FaEllipsisH size={30}/> </div>

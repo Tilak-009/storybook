@@ -1,0 +1,168 @@
+
+*{
+
+}
+
+
+.sidebox,.bigbox{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.sidebar{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    
+}
+.dashboard{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    top: 550px;
+    color: rgb(8, 187, 8);
+}
+
+.dashi{
+    padding-right: 10px;
+}
+
+.catogory{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+}
+
+.favourite{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+}
+
+.order2{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+   
+}
+
+/* .or{
+    padding-left: 25px;
+    margin: 0%;
+    padding-right: 25px;
+} */
+
+.messages{
+
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+   
+}
+
+.topdeal{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+}
+
+.settings{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    color: rgb(8, 187, 8);
+}
+
+.logout{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    color: red;
+}
+
+
+.dashboard:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+.catogory:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+.favourite:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+
+
+.order2:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+
+.messages:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+
+.topdeal:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+.settings:hover{
+    background-color: rgb(1, 184, 1);
+    color: white;
+}
+
+
+.sinput input{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
