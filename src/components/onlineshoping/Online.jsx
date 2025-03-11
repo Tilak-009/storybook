@@ -1,6 +1,6 @@
 import React from "react"
 import "./online.css"
-import {FaCapsules, FaCircleNotch, FaCog, FaComment, FaDeaf, FaGgCircle, FaHeart, FaRegCircle, FaSearch, FaShoppingBasket, FaShoppingCart, FaSignOutAlt, FaStar, FaThLarge} from 'react-icons/fa';
+import {FaCalendar, FaCapsules, FaCircleNotch, FaCog, FaComment, FaDeaf, FaGgCircle, FaHeart, FaRegCircle, FaSearch, FaShoppingBasket, FaShoppingCart, FaSignOutAlt, FaStar, FaThLarge} from 'react-icons/fa';
 import logo from "./images/logo.png"
 
 function Onlineshopping(){
@@ -62,19 +62,31 @@ function Onlineshopping(){
     border:"1px solid black",
     width:1600,
     height:1300,
+    
    
     
 
 }}>
 
     
-<div className="slogo2" style={{
+<div className="logo2" style={{
           border:"1px solid black",
-          width:1600,
+          width:1230,
           height:90
     }}>
 
-       <div className="sinput"> <FaSearch /><input type="text" placeholder="search your gloceries and etc.." /></div>
+       <div className="sinput"> <input type="text" placeholder="Search your gloceries and etc.."  style={{
+       
+        position:"absolute",
+        left:50,
+        fontSize:"medium",
+        border:"none"
+
+       }}/>
+       <FaSearch className="search" />
+       
+      <p> <FaCalendar className="calender"/> <h1 className="slas">|</h1></p>
+       </div>
     </div>
 </div>
 </div>

@@ -25,6 +25,7 @@ function Menu(){
             justifyContent:"center",
             // alignItems:"center"
         }}>
+          
             <div className="dscr1">
                <p > <b>$14,500</b> <br/>
                <i className="is">2bds - 2ba-900ft2<br/>
@@ -42,7 +43,8 @@ function Menu(){
             <img src={bed} />
             
         </div>
-        </div>
+        
+</div>
 </div>
 
 <div className="stear">

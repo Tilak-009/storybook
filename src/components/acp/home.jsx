@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import {   FaAddressCard, FaApple, FaCaretSquareLeft, FaCheckCircle, FaCircle, FaComment, FaCommentAlt, FaDotCircle, FaGooglePlay, FaPen, FaSdCard, FaSimCard, FaSquare, FaWifi } from 'react-icons/fa';
 import "./home.css"
-import mstrcard from "./icons/mastercard.png"
+// import mstrcard from "./icons/mastercard.png"
 
 
 function Homepage(){
@@ -32,7 +32,7 @@ function Homepage(){
 
       <div className="logo">
       <div className="lg" style={{ marginLeft: "50px"}}>
-      <img src={mstrcard} alt="mastercard logo"/>
+      {/* <img src={mstrcard} alt="mastercard logo"/> */}
       <div className="logo1">AceCoin</div>
       <div className="logo2">Pay</div></div>
       <div className="timer">{time}</div>
@@ -181,7 +181,7 @@ function Homepage(){
 
         <div className="lg-expr">
         <div className="expr">09/12</div>
-        <div className="lg1"><img src={mstrcard} alt={mstrcard} /></div>
+        {/* <div className="lg1"><img src={mstrcard} alt={mstrcard} /></div> */}
         </div>
 
 

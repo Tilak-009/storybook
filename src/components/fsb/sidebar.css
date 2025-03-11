@@ -33,13 +33,11 @@ will-change: transform;
 } */ */
 .heading{
   margin-right:100px;
-  
-  margin-top: 10;
+
  
   font-size:large; 
-  position: absolute;
- 
-  bottom:2px
+
+
 
   
 }
@@ -77,45 +75,19 @@ li:hover{
 
 ul {
   list-style: none;
-  margin-top: 0;
-  padding-top: 0;
   align-items: right;
   position: absolute;
-  bottom: 100px;
+  top:50px;
 
 
 }
-img{
-  position: absolute;
-  bottom: -400px;
-  right: 2000px;
+
+
+  .btmimg{
+    position: absolute;
+    top: 800px;
+  }
+  
+.dsc{
+  padding-bottom: 250px;
 }
-
-
-.btmimg img{
-  /* border: 2px solid #000000; */
-  border-radius: 30px;
-  width:330px;
-  height: 200px
-  ;}
-  
-  .btmdesc img{
-    right: 840px;
-   margin-top: 950px;
-    
-  }
-
-  
-  .btmimg h2 {
-    position: absolute;
-    bottom:-320px;
-  left: 20px;
-  }
-  
-
-  .btmimg p {
-    position: absolute;
-    bottom:-380px;
-  left: 20px;
-  }
-  

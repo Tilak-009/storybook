@@ -90,7 +90,7 @@ function Managment(){
                 width:130,
                 height:100,
                 borderRadius:30,
-                backgroundImage: `url(${bed})`,
+                backgroundImage: `url(${main})`,
                 }}>
                     
                    

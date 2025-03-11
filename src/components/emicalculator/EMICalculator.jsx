@@ -17,7 +17,7 @@ const EMICalculator = () => {
 
   return (
     <div className="calculator">
-      <h2 className="heading">EMI Calculator</h2>
+    <h1 style={{color:"red"}}>EMI CALCULATOR</h1>
       <p className="description">
         Avail upto 100% of the car value in finance at attractive interest rates
       </p>

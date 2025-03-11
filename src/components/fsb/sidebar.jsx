@@ -18,28 +18,38 @@ const SidebarMenu = ({ items, selected }) => {
           <h3 className="foodie">foodi</h3>
           <h3 className="slice">slice</h3>
   </div>
-          <div className="btmimg"> 
-     <div style={{
-  
-              position:"absolute",
-             top:"750px",
-             left:"80px",
-              width:"300px",
-              height:"150px",
-         
-            }}>
-              <div className="bcimg">
-              
+        
+        <div className="btmimg">   
+              <div className="bcimg1" style=
+              {{
+                // border:"1px solid black",
+                 width:400,
+                 height:250
+              }}>
+<img src={bottom} style={{
+  width:400,
+  height:250,
+  // paddingLeft:30,
+  borderRadius:30
+}}/>
+              </div>
           
-              <img src={bottom}/>
-            </div></div>
-        <h2>how to order food?</h2>
-<b>
+   <div className="dscr">            
+        <h2 style={{
+          padding:0,
+          margin:0
+        }}>how to order food?</h2>
+<b className="dsc" style={{
+  padding:0,
+  margin:0
+
+}}>
             <p>ordering food froms our web app is<br/>
              seamless and delightfull experirnce designed<br/>
               to satisfy you effortlessly</p>
               </b>
-</div>
+              </div>  
+              </div>  
     </div>
         </div>
 
