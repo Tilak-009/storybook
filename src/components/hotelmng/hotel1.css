@@ -3,32 +3,32 @@
 }
 
 
-.header{
+.headers{
     display: flex;
     text-align: center;
     position: absolute;
-    left: 70px;
+    left: 40px;
     top: 100px;
-
+    padding: 0%;
 }
 
-.bari , b ,.sin,.search{
+
+.estern,.searchinpt{
     display: inline-block;
     vertical-align: middle;
 }
 
-.bari{
-    padding-right: 10px;
-    padding-top:10px ;
-}
 
-.header b{
-    padding-top:10px ;
-}
-
-
-.header b{
-    padding-right: 50px;
+.search{
+    position: absolute;
+    right: 450px;
+    top: 10px;
+} 
+.estern{
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .sin{
@@ -39,11 +39,19 @@
    
 }
 
-.search{
+
+.searchinpt{
     position: absolute;
-    right: 380px;
-    top: 10px;
+    left: 320px;
 }
+
+.estern p{
+    font-size: large;
+    font-weight: bolder;
+    margin: 0%;
+    padding-left: 30px;
+}
+
 
 .decor{
     position: absolute;
@@ -913,4 +921,36 @@ vertical-align: middle;
 
 .tot{
     padding-left: 10px;
+}
+
+
+.payment
+{
+    position: absolute;
+   bottom: 120px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 280px;
+}
+
+.obtn{
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.obtn:hover{
+    background-color: rgb(4, 88, 4);
+    color: rgb(255, 255, 255);
 }

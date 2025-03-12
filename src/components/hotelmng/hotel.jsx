@@ -19,7 +19,7 @@ function Hotelmanagment(){
                     flexDirection:"row",
             border:"1px solid black",
             height:"1050px",
-            width:"1220px",
+            width:"1270px",
             borderRadius:"30px",
             backgroundColor:"white",
             
@@ -34,10 +34,12 @@ function Hotelmanagment(){
                 borderRightColor:"white",
                 display:"flex"}}>
                 
-               <div className="header">
-                     <FaBars className="bari"/> <b>125  estern costume St. <FaCaretDown className="down"/></b>
-                     
-                     <input type="text" placeholder="What would you want eat today?" style={{borderRadius:10 , display:"flex",textAlign:"center" }} className="sin" /><FaSearch className="search"/>
+               <div className="headers">
+  
+                    
+                    <div className="estern"><FaBars className="bars"/> <p>125 estern costume st. <FaCaretDown className="dw"/></p></div>
+                    <div className="searchinpt"> <input type="text" placeholder="What would you want eat today?"  style={{borderRadius:10 , display:"flex",textAlign:"center"}} className="sin"/> <FaSearch className="search"/></div>
+
                      </div>
 
                      <div className="decor">
@@ -47,7 +49,7 @@ function Hotelmanagment(){
                         <div className="lm"><i className="lemo">learn more </i><FaArrowRight className="rit" /></div>
                         <div className="imgcircle"
                              style={{
-                                border:"1px solid green",
+                                border:"3px solid green",
                                 borderRadius:"100px",
                                 width:240,
                                 height:220,
@@ -92,8 +94,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img1"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc1"><FaClock/><i>15 min</i>  <FaInfoCircle className="i1"/> <FaInfoCircle className="i2"/></p></b><br/>
-                            <p className="home1"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc1" style={{width:150}}><FaClock/><i>15 min</i>   <FaInfoCircle className="info7"/><FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home1" style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                             </div>
 
@@ -108,8 +110,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img2"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc2"><FaClock/><i>15 min</i>  <FaInfoCircle className="info1"/> <FaInfoCircle className="info2"/></p></b><br/>
-                            <p className="home2"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc2" style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home2"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                             </div>  
 
@@ -124,8 +126,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img3"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc3"><FaClock/><i>15 min</i>  <FaInfoCircle className="info3"/> <FaInfoCircle className="info4"/></p></b><br/>
-                            <p className="home3"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc3" style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home3"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
 
 
@@ -136,8 +138,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img4"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc4"><FaClock/><i>15 min</i>  <FaInfoCircle className="info5"/> <FaInfoCircle className="info6"/></p></b><br/>
-                            <p className="home4"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc4"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home4"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -150,8 +152,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img5"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc5"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home5"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc5"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home5"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
                                 
@@ -163,8 +165,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img6"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc6"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home6"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc6"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home6"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -178,8 +180,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img7"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc7"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home7"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc7"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home7"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -189,8 +191,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img8"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc8"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home8"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc8"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home8"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -203,8 +205,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img9"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc9"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home9"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc9"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home9"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -215,8 +217,8 @@ function Hotelmanagment(){
                                 width:150,
                                 height:210
                             }}> <div className="img10"><img src={dish}/></div> <b>Restaurent Name<br/>
-                            <p className="imgdsc10"><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
-                            <p className="home10"><FaHome/><i>$3.45 free delivery</i></p>
+                            <p className="imgdsc10"style={{width:150}}><FaClock/><i>15 min</i>  <FaInfoCircle className="info7"/> <FaInfoCircle className="info8"/></p></b><br/>
+                            <p className="home10"style={{width:150}}><FaHome/><i>$3.45 free delivery</i></p>
 
                                 </div>
 
@@ -233,7 +235,7 @@ function Hotelmanagment(){
                     borderTopRightRadius:"30px",
                     borderBottomRightRadius:"30px",
                     height:"1050px",
-                    width:"350px",
+                    width:"400px",
                 
                     
                   }}>
@@ -396,7 +398,7 @@ function Hotelmanagment(){
   
 
 }}> <p>You have Three Coupens <b>Use Now</b></p></div>
-
+<div className="payment">
 
 <div className="bill">
     <div  style={{
@@ -406,17 +408,23 @@ function Hotelmanagment(){
 }}>
 
 </div>
+
    <div className="subt"> <b>sub total</b> <p>$259.59</p></div>
    <div className="df"> <b>delivery fee </b>  <p>$5.20</p></div>
    <div className="tax"> <b>taxes </b><p>$39.20</p></div>
 
    <div  style={{
     border:"2px solid black ",
-    width:"320px",}}></div>
+    width:"320px",}}>
 
-    <div className="total"><h2 className="tot">total </h2><h2 className="totp">$395.40</h2></div>
+    </div>
+
+    <div className="total"><h2 className="tot">total </h2><h2 className="totp">$395.40</h2><br/>
+<div className="btn">
+<button className="obtn" ><h3>Order and checkout</h3></button></div>
+</div> 
    </div>
-
+   </div>
    
 </div>
 
