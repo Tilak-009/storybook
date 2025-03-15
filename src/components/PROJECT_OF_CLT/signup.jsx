@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 import "./signup.css"
 import {FaEye, FaEyeSlash, FaFacebook, FaKey, FaLock, FaPersonBooth, FaRegEyeSlash, FaUser} from 'react-icons/fa';
-import background from "./images/bg4.png"
+import background from "./images/bg5.png"
 
 function Signup(){
 
     const[eyeOpen,seteyeOpen]=useState(false)
     const[password,setpassword]=useState("")
+    const [isChecked, setIsChecked] = useState(false);
+      
+        const handleCheck = () => {
+          setIsChecked(!isChecked);
+        };
+      
     const handleSubmit=()=>{
         seteyeOpen(!eyeOpen);
     }
@@ -21,40 +27,48 @@ setpassword(event.target.value);
     alignItems:"center"
 }}>
 <div className="main" style={{
-    border:"3px solid black",
+    border:"5px solid black",
     width:522,
-    height:1120,
+    height:1000,
     display:"flex",
+    borderRadius:30,
     justifyContent:"center",
-    borderBottomLeftRadius:50,
-    borderBottomRightRadius:50
+    borderBottomLeftRadius:25,
+    borderBottomRightRadius:25
 }}>
 <div className="logobg" style={{
-border:"1px solid black",
+// border:"1px solid black",
     width:520,
     height:300,
     display:"flex",
     justifyContent:"center",
+    borderRadius:20,
+    borderBottom:"none"
     
     }}>
 
         <div className="imgbx">
         <img src={background} style={{
-          width:520,
+          width:530,
           height:300,
+          borderRadius:26
          
         }}/>
         </div>
 
 <div className="details" style={{
-    border:"1px solid black",
-    borderBottom:"3px solid black",
+  
     width:520,
-    height:870,
+    height:750,
     position:"absolute",
-    top:280,
-    borderRadius:50,
-    backgroundColor:"white"
+    top:250,
+    borderTopLeftRadius:40,
+    borderTopRightRadius:40,
+    borderBottomLeftRadius:5,
+    borderBottomRightRadius:5,
+    backgroundColor:"white",
+    borderBottom:"none",
+    
 }}>
 
 <div className="usercredential">
@@ -92,10 +106,28 @@ border:"1px solid black",
 
 <div className="sbtn">
     <button> <h2>SIGN IN</h2></button>
-   </div>
+  
+    </div>  <br/>
+   <div className="checkbx" >
+   <input type="checkbox" 
+   style={{
+    position:"absolute",
+    top:170,
+    width:25,
+    right:100,
+    
+    
+   }}/> 
+    </div>
+    <div className="ksi">Keep Sign In</div>
+    <div className="forgtpass">Forgot password?</div>
+    <div className="dhaccount">Dont't have an account?</div>
+    <div className="create"><button> <h2>CREATE AN ACCOUNT</h2></button></div>
+</div>
 
 
-   </div>
+
+  
 </div>
 
 </div>
